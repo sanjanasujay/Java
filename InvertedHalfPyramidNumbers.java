@@ -1,13 +1,13 @@
 public class InvertedHalfPyramidNumbers {
   
         public static void main(String[] args) {
-            int r=4;
+            int n=5;
             int i,j;
-            for(i=1;i<=r;i++)
+            for(i=1;i<=n;i++)
             {
-                for(j=r;j>=1;j--)
+                for(j=1;j<=n-i+1;j++)
                 {
-                    System.out.print("");
+                    System.out.print(+j);
                 }
                 System.out.println();
             }
